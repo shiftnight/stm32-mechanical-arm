@@ -1,0 +1,33 @@
+# Keil build output
+*.obj
+*.lst
+*.map
+*.axf
+*.bin
+*.hex
+*.htm
+*.lnp
+*.o
+*.d
+*.crf
+*.dep
+MDK-ARM/Objects/
+MDK-ARM/Listings/
+MDK-ARM/RTE/
+
+# Machine-specific IDE state and logs
+*.uvoptx
+*.uvguix*
+*.log
+*.lock
+*.ini
+.vscode/
+**/.vscode/
+
+# Packaged tools and local binaries
+*.exe
+
+# Backups
+*.bak
+*~
+*.old
